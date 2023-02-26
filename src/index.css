@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background-image: linear-gradient(to right, #261C2C , #3E2C41);
+  color: #E9D5DA
+}
+
+button {
+  background-image: linear-gradient(to right, #181D31 , #678983);
+  color: #fff;
+}
+
+.custom-card-image .card.image-full:before {
+  border-radius: 0.5rem;
+  opacity: 0.45
+}
+
+
